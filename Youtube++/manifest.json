@@ -2,7 +2,7 @@
     "name": "Youtube++",
     "version": "0.1.0",
     "description": "Rearrange Youtube's UI elements in one click!",
-    "permissions": ["storage", "tabs"],
+    "permissions": ["storage", "tabs", "notifications"],
     "host_permissions": ["https://*.youtube.com/*"],
     "background": {
       "service_worker": "background.js"
@@ -20,7 +20,7 @@
     },
     "action": {
       "default_icon": "assets/128.png",
-      "default_title": "My YT Bookmarks",
+      "default_title": "Youtube++",
       "default_popup": "popup.html"
     },
     "manifest_version": 3
