@@ -1,3 +1,4 @@
+
 (() => {
   chrome.runtime.onMessage.addListener((obj, sender, response) => {
     const { type, value, videoId } = obj;
@@ -8,11 +9,8 @@
     });
 
     const changeUI = () => {
-        alert("running");
         document.getElementById("player").remove();
     }
 
 })();
         
-
-
